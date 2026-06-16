@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MaileHereko</title>
+    <link rel="icon" href="/assets/icon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav id="upper-nav">
+        <span>
+          <img src="/assets/icon.png" alt="MaileHereko Logo" />
+        </span>
+        <ul id="upper-list">
+          <li><a href="#">Movies</a></li>
+          <li><a href="#">TV Shows</a></li>
+          <li><a href="#">Suggest Me →</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <h2>MaileHereko</h2>
+        <p>
+          List of movies and TV Shows, I, Pramod Poudel have watched till date.
+          Explore what I have watched and also feel free to make a suggestion.
+          😉
+        </p>
+      </section>
+
+      <div class="search-wrapper">
+        <img src="/assets/search-normal.png" alt="Search Icon" />
+        <input type="search" placeholder="Search movies or TV shows..." />
+      </div>
+
+      <nav id="lower-nav">
+        <ul id="lower-list">
+          <li><a href="#" class="active">All</a></li>
+          <li><a href="#">Movies</a></li>
+          <li><a href="#">TV Shows</a></li>
+        </ul>
+      </nav>
+
+      <span id="total-count"></span>
+
+      <section id="content">
+  
+      </section>
+
+    <div id="controles">
+      <button id="botao-anterior" onclick="paginaAnterior()">Anterior</button>
+      <span id="info-paginas"></span>
+      <button id="botao-proximo" onclick="paginaProxima()">Próximo</button>
+    </div>
+
+    </main>
+
+    <script src="/script.js"></script>
+  </body>
+</html>
